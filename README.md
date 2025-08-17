@@ -13,7 +13,7 @@ npm i
 npm install
 ```
 
-## Start bot telegram
+## Start Bot
 ```bash
 node app
 ```
@@ -27,5 +27,5 @@ node app
 - Image resizer
 - Plugins/ESM Script based
 
-## Report
+## Report Bug
 Having any issues about this bot? Dm [@ReallBoyy](https://t.me/reallboyy2_4) on telegram!
