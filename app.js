@@ -1,7 +1,6 @@
 /*
   @ Credited to GuckTube
   @ Remaked by ReallBoyy
-  @ Visit github https://github.com/ReallBoyy
 */
 
 import { promises as fs } from "fs";
@@ -11,7 +10,7 @@ import { fileURLToPath } from 'url';
 
 const fname = fileURLToPath(import.meta.url);
 const __dir = path.dirname(fname);
-const bot = new Telegraf('8422713485:AAEccGNPWmXr4CDiY0J-1Z6HjeBNXI4DIP4');
+const bot = new Telegraf('YOUR_TELEGRAM_BOT_TOKEN');
 let helpCmd;
 
 async function Commands() {
@@ -56,5 +55,6 @@ bot.help((ctx) => {
 await Commands();
 
 bot.launch(() => console.log('Telegram bot is online!'));
+
 
 
