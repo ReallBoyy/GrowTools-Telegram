@@ -8,7 +8,7 @@ Telegram GrowTools bot.
 ```bash
 npm i
 ```
-
+or
 ```bash
 npm install
 ```
