@@ -1,4 +1,3 @@
-import fetch from "node-fetch";
 import { Jimp } from "jimp";
 
 async function getImage(url) {
@@ -39,3 +38,4 @@ const handler = async (ctx, { conn }) => {
 handler.command = ["resize"];
 handler.help = "Resize image";
 export default handler;
+
