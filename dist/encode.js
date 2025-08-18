@@ -2,7 +2,7 @@ import { item_encoder } from "./src/itemtools.js";
 
 const handler = async (ctx, { conn }) => {
     if (!ctx.message.reply_to_message || !ctx.message.reply_to_message.document) {
-        await ctx.reply("Please reply file that you want to get the protonhash");
+        await ctx.reply("Please reply your items.json");
     }
     else {
         const flink = await ctx.telegram.getFileLink(ctx.message.reply_to_message.document.file_id);
@@ -21,4 +21,5 @@ const handler = async (ctx, { conn }) => {
 
 handler.command = ["encode"];
 handler.help = "Encode your items\\.json to items\\.dat";
+
 export default handler;
