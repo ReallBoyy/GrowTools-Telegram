@@ -2,7 +2,7 @@
 Telegram GrowTools bot.
 
 ## Required
-- nodejs v22 or higher
+- [nodejs v22 or higher](https://nodejs.org/en/download)
 
 ## Installation
 ```bash
